@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <table width="600" cellspacing="0" cellpading="0">
+            <thead>
+                <tr bgcolor="#1C54A8"><!--a tag tr não aceita padding-->
+                    <th align="left" style="padding: 24px 40px; color: #fff; font-size: 20px; font-family: sans-serif; font-weight: normal;">
+                        Recebemos seu pedido
+                    </th>
+                    <th style="padding: 24px 0;">
+                        <img src="https://servidor-estaticos-zeta-one.vercel.app/EBAC_SHOES.png" alt="EBAC Shoes">
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2" style="padding: 24px 40px 80px;"> <!--o colspan fala pro html que essa coluna vai ocupar o espaço de duas colunas, isso se deu porque no cabeçalho foram criadas duas colunas e no body apenas uma e assim a tabela iria ficar desalinhada-->
+                        <h2 style="font-family: sans-serif; font-size: 16px; ">
+                            <b><i>Olá, tudo bem?</i></b>
+                        </h2>
+                        <p style="font-family: sans-serif; font-size: 14px; padding-bottom: 24px;">
+                            Recebemos o seu pedido e agora estamos aguardando a confirmação do pagamento pela operadora.
+                        </p>
+                        <p style="font-family: sans-serif; font-size: 14px; padding-bottom: 24px;">
+                            Você pode acompanhar os detalhes do pedido clicando no botão abaixo:
+                        </p>
+                        <a href="#" style="background-color: #1C54A8; color: #fff; font-size: 16px; text-decoration: none; padding: 8px; border-radius: 6px; font-family: sans-serif;">
+                            <b><i>Acompanhar pedido</i></b>
+                        </a>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p style="margin-left: 40px; font-family: sans-serif; font-size: 16px;">
+                            <b><i>Detalhes do pedido</i></b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="padding-left: 40px; padding-bottom: 80px;">
+                        <div style="display: inline-block;">
+                            <img src="https://servidor-estaticos-zeta-one.vercel.app/nike.png" alt="">
+                        </div>
+                        <div style="display: inline-block; padding-left: 16px;">
+                            <p style="font-family: sans-serif; font-size: 14px; margin: 0;">
+                                <b>Tênis Nike</b><br>
+                                <b>Tamanho:</b> 40<br>
+                                <b>Cor:</b> Preta <br>
+                                <b>Quantidade:</b> 1 <br>
+                                <b>Preço:</b> R$350,00 em 5x R$70,00 <br>
+                                <b>Frete:</b> Grátis <br>
+                                <b>Número do pedido:</b> 9876523453 <br>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tfoot>
+                    <tr bgcolor="#1C54A8">
+                        <td  colspan="2" align="center" style="padding: 24px 0; ">
+                            <a href="https://ebacshoes.com.br">
+                                <img src="https://servidor-estaticos-zeta-one.vercel.app/EBACSHOES.COM.BR.png" alt="ebacshoes.com.br">
+                            </a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </tbody>            
+        </table>
+    </center>
+</body>
+</html>
